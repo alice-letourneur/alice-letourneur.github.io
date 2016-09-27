@@ -42,7 +42,7 @@ p {
 	color: #e9967a;
 }
 
-.role, .subtitle {
+.role, .subtitle, .skill, .skill-description {
 	color: #f7ded4;
 }
 
@@ -68,7 +68,8 @@ li a:hover:not(.active) {
 }
 
 .description-img {
-		margin: auto 0;
+	margin: auto 0;
+	border: solid #222;
 
 }
 
@@ -78,8 +79,8 @@ li a:hover:not(.active) {
 
 .thumbnail {
 	border-radius: 50px 15px;
-	background-color: #fbeee9;
-	border: solid #f7ded4;
+	background-color: #222;
+	border: none;
 }
 
 .project-img {
