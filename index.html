@@ -39,7 +39,7 @@
                                           <!-- Button trigger modal -->
                                           <li><a href="#myModal" data-toggle="modal">Contact</a></li>
                                           <!-- Modal -->
-                                          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                                          <div class="modal fade modal-md" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
                                             <div class="modal-dialog" role="document">
                                               <div class="modal-content">
                                                 <div class="modal-header">
@@ -49,12 +49,16 @@
                                                 <div class="modal-body">
                                                   <form>
                                                     <div class="form-group">
-                                                      <label for="sender-name" class="control-label">Name:</label>
-                                                      <input type="text" class="form-control" id="sender-name">
+                                                      <label for="sender-name" class="control-label">Name</label>
+                                                      <input type="text" class="form-control" id="sender-name" placeholder="Enter your name"></input>
+                                                    </div>
+                                                      <div class="form-group">
+                                                      <label for="sender-email" class="control-label">Email:</label>
+                                                      <input class="form-control" id="message-text" placeholder="Enter your email address"></input>
                                                     </div>
                                                     <div class="form-group">
                                                       <label for="message-text" class="control-label">Message:</label>
-                                                      <textarea class="form-control" id="message-text"></textarea>
+                                                      <textarea class="form-control" id="message-text" placeholder="Type your message"></textarea>
                                                     </div>
                                                   </form>
                                                 </div>

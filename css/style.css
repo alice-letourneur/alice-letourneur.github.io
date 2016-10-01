@@ -62,11 +62,16 @@ li a {
 
 }
 
+a:focus, button:focus {   
+    outline: 0 none !important;
+}
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
   background-color: #e9967a;
+  border-color: transparent;
 }
 
 .description {
