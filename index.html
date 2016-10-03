@@ -16,7 +16,6 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
             <![endif]-->
             <!-- My style -->
-            <link rel="stylesheet" href="long-shadow-icons/css/style.css" />
             <link href="css/style.css" rel="stylesheet" type:"text/css">
             <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300" rel="stylesheet">
       </head>
@@ -35,47 +34,11 @@
                                     <ul class="nav nav-pills nav-justified">
                                           <li><a href="#about">About</a></li>
                                           <li><a href="#featured_project">Featured Skills</a></li>
-                                          <!-- Button trigger Contact modal -->
-                                          <li><a href="#myModal" data-toggle="modal">Contact</a></li>
+                                          <li><a href="#contact">Contact</a></li>
                                     </ul>
                               </div>
                         </div>
                   </div>
-
-                  <!-- Start Modal Contact-->
-                  <div class="modal fade modal-md" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-                        <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                    <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title" id="exampleModalLabel">Get in touch</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                          <form>
-                                                <div class="form-group">
-                                                      <label for="sender-name" class="control-label">Name</label>
-                                                      <input type="text" class="form-control" id="sender-name" placeholder="Enter your name"></input>
-                                                </div>
-                                                <div class="form-group">
-                                                      <label for="sender-email" class="control-label">Email:</label>
-                                                      <input class="form-control" id="message-text" placeholder="Enter your email address"></input>
-                                                </div>
-                                                <div class="form-group">
-                                                      <label for="message-text" class="control-label">Message:</label>
-                                                      <textarea class="form-control" id="message-text" placeholder="Type your message"></textarea>
-                                                </div>
-                                          </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                          <button type="button" class="btn btn-primary">Send message</button>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <!-- End Modal Contact-->
-
-
                   <div class="row description" id="about">
                         <div class="col-md-7">
                               <h3>About me</h3>
@@ -188,14 +151,25 @@
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="js/bootstrap.min.js"></script>
 
+            <footer>
+                  <div class="container-fluid">
+                        <div class="row">
+                              <div class="col-md-12">
+                                    <ul class="list-inline text-center" id="contact">
+                                    <li><a href="https://www.facebook.com/al.letourneur"><img src="picture/facebook.png"></a></li>
+                                    <li><a href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img src="picture/linkedin.png"></a></li>
+                                    <li><a href="https://github.com/alice-letourneur"><img src="picture/github.png"></a></li>
+                                    <li><a href="mailto:aliceletourneur@icloud.com"><img src="picture/email.png"></a></li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-md-12">
+                                    <p class="licence">(c) 2016 Alice Letourneur</p>
+                              </div>
+                        </div>
+                  </div>
+            </footer>
       </body>
-<!--       <footer>
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-12">
-<p>(c) 2016 Alice Letourneur</p>
-</div>
-</div>
-</div>
-</footer> -->
+<!--        -->
 </html>
