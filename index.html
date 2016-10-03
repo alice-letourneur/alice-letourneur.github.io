@@ -12,13 +12,13 @@
             <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
             <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
             <!--[if lt IE 9]>
-              <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
             <![endif]-->
             <!-- My style -->
             <link rel="stylesheet" href="long-shadow-icons/css/style.css" />
             <link href="css/style.css" rel="stylesheet" type:"text/css">
-            <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300" rel="stylesheet">    
+            <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300" rel="stylesheet">
       </head>
       <body>
             <div class="container-fluid">
@@ -32,69 +32,170 @@
                                     <h2 class="role">Front End Developer</h2>
                               </div>
                               <div class="">
-                                    <ul class="nav-pills nav-justified">
-                                          <li><a href="#home">Home</a></li>
+                                    <ul class="nav nav-pills nav-justified">
                                           <li><a href="#about">About</a></li>
                                           <li><a href="#featured_project">Featured Skills</a></li>
-                                          <li><a href="#contact">Contact</a></li>
+                                          <!-- Button trigger Contact modal -->
+                                          <li><a href="#myModal" data-toggle="modal">Contact</a></li>
                                     </ul>
                               </div>
                         </div>
                   </div>
-                  <div class="row description">
-                              <div class="col-md-7">
-                                    <p>My description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+
+                  <!-- Start Modal Contact-->
+                  <div class="modal fade modal-md" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                        <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                    <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                          <h4 class="modal-title" id="exampleModalLabel">Get in touch</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                          <form>
+                                                <div class="form-group">
+                                                      <label for="sender-name" class="control-label">Name</label>
+                                                      <input type="text" class="form-control" id="sender-name" placeholder="Enter your name"></input>
+                                                </div>
+                                                <div class="form-group">
+                                                      <label for="sender-email" class="control-label">Email:</label>
+                                                      <input class="form-control" id="message-text" placeholder="Enter your email address"></input>
+                                                </div>
+                                                <div class="form-group">
+                                                      <label for="message-text" class="control-label">Message:</label>
+                                                      <textarea class="form-control" id="message-text" placeholder="Type your message"></textarea>
+                                                </div>
+                                          </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Send message</button>
+                                    </div>
                               </div>
-                              <div class="col-md-5">
-                                    <img class="img-responsive img-rounded center-block description-img" alt="Illustration my description" src="picture/frontenddevillustration2.png">
-                              </div>
+                        </div>
                   </div>
-                  <div class="row">
+                  <!-- End Modal Contact-->
+
+
+                  <div class="row description" id="about">
+                        <div class="col-md-7">
+                              <h3>About me</h3>
+                              <p >My description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                        </div>
+                        <div class="col-md-5">
+                              <img class="img-responsive img-rounded center-block description-img" alt="Illustration my description" src="picture/frontenddevillustration2.png">
+                        </div>
+                  </div>
+
+                  <div class="row" id= "featured_project">
                         <h3 class="subtitle">Featured Skills</h3>
                   </div>
-                  <div class="row project-list">
-                        <div class="col-md-4">
-                              <div class="thumbnail">
-                                    <img class="img-responsive img-rounded project-img" alt="Illustration project number 1" src="picture/badge_html_css.png">
-                                    <div class="caption">
-                                          <h3 class="skill">Skill #1</h3>
-                                          <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                                          <p><a href="#" class="btn btn-primary" role="button">More info</a></p>
-                                    </div>
+
+      <div class="row project-list">
+            <div class="col-md-4">
+                  <div class="thumbnail">
+                        <img class="img-responsive img-rounded project-img" alt="Illustration project number 1" src="picture/badge_html_css.png">
+                        <div class="caption">
+                              <h3 class="skill">HTML5 & CSS3</h3>
+                              <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                              <!-- Button trigger Small modal Skill 1 -->
+                              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-1-modal">More info</button></p>
+                        </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                  <div class="thumbnail">
+                        <img class="img-responsive img-rounded project-img" alt="Illustration project number 2" src="picture/badge_git.png">
+                        <div class="caption">
+                              <h3 class="skill">Git & Github</h3>
+                              <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                              <!-- Button trigger Small modal Skill 2 -->
+                              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-2-modal">More info</button></p>
+                        </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                  <div class="thumbnail">
+                        <img class="img-responsive img-rounded project-img" alt="Illustration project number 3" src="picture/badge_javascript.png">
+                        <div class="caption">
+                              <h3 class="skill">Javascript</h3>
+                              <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-3-modal">More info</button></p>
+                        </div>
+                  </div>
+            </div>
+
+      <!-- Start small Modal Skill 1-->
+            <div class="modal fade skill-1-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                  <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                              </div>
+                              <div class="modal-body">
+                              ...
+                              </div>
+                              <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                               </div>
                         </div>
-                        <div class="col-md-4">
-                              <div class="thumbnail">
-                                    <img class="img-responsive img-rounded project-img" alt="Illustration project number 2" src="picture/badge_git.png">
-                                    <div class="caption">
-                                          <h3 class="skill">Skill #2</h3>
-                                          <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                                          <p><a href="#" class="btn btn-primary" role="button">More info</a></p>
-                                    </div>
+                  </div>
+            </div>
+            <!-- End small Modal Skill 1-->
+
+            <!-- Start small Modal Skill 2-->
+            <div class="modal fade skill-2-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                  <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                              </div>
+                              <div class="modal-body">
+                              ...
+                              </div>
+                              <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                               </div>
                         </div>
-                        <div class="col-md-4">
-                              <div class="thumbnail">
-                                    <img class="img-responsive img-rounded project-img" alt="Illustration project number 3" src="picture/badge_javascript.png">
-                                    <div class="caption">
-                                          <h3 class="skill">Skill #3</h3>
-                                          <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                                          <p><a href="#" class="btn btn-primary" role="button">More info</a></p>
-                                    </div>
+                  </div>
+            </div>
+            <!-- End small Modal Skill 2-->
+
+            <!-- Start small Modal Skill 3-->
+            <div class="modal fade skill-3-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                  <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                               </div>
-                      </div>
+                              <div class="modal-body">
+                              ...
+                              </div>
+                              <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            </div>
+            <!-- End small Modal Skill 3-->
+
+
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="js/bootstrap.min.js"></script>
+
       </body>
 <!--       <footer>
-            <div class="container-fluid">
-                  <div class="row">
-                        <div class="col-md-12">
-                              <p>(c) 2016 Alice Letourneur</p>
-                        </div>
-                  </div>
-            </div>
-      </footer> -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<p>(c) 2016 Alice Letourneur</p>
+</div>
+</div>
+</div>
+</footer> -->
 </html>
