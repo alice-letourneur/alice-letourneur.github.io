@@ -1,10 +1,10 @@
 * {
 	font-family: 'Raleway', sans-serif;
-	color: #222;
+	color: #f7ded4;
 }
 
 body {
-	background-color: #f7ded4;
+	background-color: #fbeee9;
 }
 
 p {
@@ -42,8 +42,8 @@ p {
 	color: #e9967a;
 }
 
-.role, .subtitle, .skill, .skill-description, .licence{
-	color: #f7ded4;
+.skill, .description {
+	color: #222;
 }
 
 li a {
@@ -76,7 +76,6 @@ a:focus, button:focus {
 
 .description {
 	background-color: #e9967a;
-	font-family: 'Raleway', sans-serif;
   	overflow: auto;
 }
 
@@ -86,7 +85,7 @@ a:focus, button:focus {
 
 }
 
-.project-list {
+.skill-list {
 	padding-top: 0;
 }
 
@@ -96,13 +95,16 @@ a:focus, button:focus {
 	border: none;
 }
 
-.project-img {
+.skill-img {
 	margin-top: 15%;
 	width : 200px;
 }
 
+.contact {
+	font-size: 175%;
+}
 
-
-
-
+.licence {
+	padding-bottom: 0;
+}
 
