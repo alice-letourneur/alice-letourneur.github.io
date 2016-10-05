@@ -21,7 +21,7 @@
       </head>
       <body>
             <div class="container-fluid">
-                  <div class="row">
+                  <header class="row">
                         <div class="col-md-4">
                               <img class="img-responsive img-rounded center-block logo" src="picture/aliceletourneur.png">
                         </div>
@@ -38,138 +38,142 @@
                                     </ul>
                               </div>
                         </div>
-                  </div>
-                  <div class="row description" id="about">
-                        <div class="col-md-7">
-                              <h3>About me</h3>
-                              <p >My description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                        </div>
-                        <div class="col-md-5">
+                  </header>
+                  <section class="row description" id="about">
+                        <article class="col-md-7">
+                              <h3 class="description">About me</h3>
+                              <p class="description">While studying with Udacity, I am learning to master the skills required to become a Front-End Web Developer, and start building beautiful, responsive websites optimized for mobile and desktop performance.</p>
+                        </article>
+                        <article class="col-md-5">
                               <img class="img-responsive img-rounded center-block description-img" alt="Illustration my description" src="picture/frontenddevillustration2.png">
-                        </div>
-                  </div>
+                        </article>
+                  </section>
 
-                  <div class="row" id= "featured_project">
-                        <h3 class="subtitle">Featured Skills</h3>
-                  </div>
+                  <section class="row" id= "featured_project">
+                        <article class="col-md-12">
+                              <h3 class="subtitle">Featured Skills</h3>
+                        </article>
+                  </section>
 
-      <div class="row project-list">
-            <div class="col-md-4">
-                  <div class="thumbnail">
-                        <img class="img-responsive img-rounded project-img" alt="Illustration project number 1" src="picture/badge_html_css.png">
-                        <div class="caption">
-                              <h3 class="skill">HTML5 & CSS3</h3>
-                              <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                              <!-- Button trigger Small modal Skill 1 -->
-                              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-1-modal">More info</button></p>
-                        </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                  <div class="thumbnail">
-                        <img class="img-responsive img-rounded project-img" alt="Illustration project number 2" src="picture/badge_git.png">
-                        <div class="caption">
-                              <h3 class="skill">Git & Github</h3>
-                              <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                              <!-- Button trigger Small modal Skill 2 -->
-                              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-2-modal">More info</button></p>
-                        </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                  <div class="thumbnail">
-                        <img class="img-responsive img-rounded project-img" alt="Illustration project number 3" src="picture/badge_javascript.png">
-                        <div class="caption">
-                              <h3 class="skill">Javascript</h3>
-                              <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-3-modal">More info</button></p>
-                        </div>
-                  </div>
-            </div>
+                  <section class="row skill-list">
+                        <article class="col-md-4">
+                              <div class="thumbnail">
+                                    <img class="img-responsive img-rounded skill-img" alt="Illustration project number 1" src="picture/badge_html_css.png">
+                                    <div class="caption">
+                                          <h3 class="skill">HTML5 & CSS3</h3>
+                                          <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                                          <!-- Button trigger Small modal Skill 1 -->
+                                          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-1-modal">More info</button></p>
+                                    </div>
+                              </div>
+                        </article>
+                        <article class="col-md-4">
+                              <div class="thumbnail">
+                                    <img class="img-responsive img-rounded skill-img" alt="Illustration project number 2" src="picture/badge_git.png">
+                                    <div class="caption">
+                                          <h3 class="skill">Git & Github</h3>
+                                          <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                                          <!-- Button trigger Small modal Skill 2 -->
+                                          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-2-modal">More info</button></p>
+                                    </div>
+                              </div>
+                        </article>
+                        <article class="col-md-4">
+                              <div class="thumbnail">
+                                    <img class="img-responsive img-rounded skill-img" alt="Illustration project number 3" src="picture/badge_javascript.png">
+                                    <div class="caption">
+                                          <h3 class="skill">Javascript</h3>
+                                          <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
+                                          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-3-modal">More info</button></p>
+                                    </div>
+                              </div>
+                        </article>
 
-      <!-- Start small Modal Skill 1-->
-            <div class="modal fade skill-1-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                  <div class="modal-dialog modal-sm" role="document">
-                        <div class="modal-content">
-                              <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                              </div>
-                              <div class="modal-body">
-                              ...
-                              </div>
-                              <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!-- End small Modal Skill 1-->
-
-            <!-- Start small Modal Skill 2-->
-            <div class="modal fade skill-2-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                  <div class="modal-dialog modal-sm" role="document">
-                        <div class="modal-content">
-                              <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                              </div>
-                              <div class="modal-body">
-                              ...
-                              </div>
-                              <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <!-- Start small Modal Skill 1-->
+                        <div class="modal fade skill-1-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                              <div class="modal-dialog modal-sm" role="document">
+                                    <div class="modal-content">
+                                          <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                          ...
+                                          </div>
+                                          <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+                                    </div>
                               </div>
                         </div>
-                  </div>
-            </div>
-            <!-- End small Modal Skill 2-->
+                        <!-- End small Modal Skill 1-->
 
-            <!-- Start small Modal Skill 3-->
-            <div class="modal fade skill-3-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                  <div class="modal-dialog modal-sm" role="document">
-                        <div class="modal-content">
-                              <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                              </div>
-                              <div class="modal-body">
-                              ...
-                              </div>
-                              <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <!-- Start small Modal Skill 2-->
+                        <div class="modal fade skill-2-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                              <div class="modal-dialog modal-sm" role="document">
+                                    <div class="modal-content">
+                                          <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                          ...
+                                          </div>
+                                          <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+                                    </div>
                               </div>
                         </div>
-                  </div>
-            </div>
-            </div>
-            <!-- End small Modal Skill 3-->
+                        <!-- End small Modal Skill 2-->
 
+                        <!-- Start small Modal Skill 3-->
+                        <div class="modal fade skill-3-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                              <div class="modal-dialog modal-sm" role="document">
+                                    <div class="modal-content">
+                                          <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                          ...
+                                          </div>
+                                          <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <!-- End small Modal Skill 3-->
+
+                  </section>
+                  <footer>
+                        <article class="row contact">
+                              <div class="col-md-12" id="contact">
+                                    <ul class="list-inline text-center" id="contact">
+                                          <li><span>Contact me</span></li>
+                                          <li><a href="mailto:aliceletourneur@icloud.com"><img src="picture/email.png"></a></li>
+                                          <li><span>or get social</span></li>
+                                          <li><a href="https://www.facebook.com/al.letourneur"><img src="picture/facebook.png"></a></li>
+                                          <li><a href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img src="picture/linkedin.png"></a></li>
+                                          <li><a href="https://github.com/alice-letourneur"><img src="picture/github.png"></a></li>
+                                    </ul>
+                              </div>
+                        </article>
+                        <article class="row">
+                              <div class="col-md-12">
+                                    <p class="licence">(c) 2016 Alice Letourneur</p>
+                              </div>
+                        </article>
+                  </footer>
+            </div>
+            
 
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="js/bootstrap.min.js"></script>
 
-            <footer>
-                  <div class="container-fluid">
-                        <div class="row">
-                              <div class="col-md-12">
-                                    <ul class="list-inline text-center" id="contact">
-                                    <li><a href="https://www.facebook.com/al.letourneur"><img src="picture/facebook.png"></a></li>
-                                    <li><a href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img src="picture/linkedin.png"></a></li>
-                                    <li><a href="https://github.com/alice-letourneur"><img src="picture/github.png"></a></li>
-                                    <li><a href="mailto:aliceletourneur@icloud.com"><img src="picture/email.png"></a></li>
-                                    </ul>
-                              </div>
-                        </div>
-                        <div class="row">
-                              <div class="col-md-12">
-                                    <p class="licence">(c) 2016 Alice Letourneur</p>
-                              </div>
-                        </div>
-                  </div>
-            </footer>
       </body>
 <!--        -->
 </html>
