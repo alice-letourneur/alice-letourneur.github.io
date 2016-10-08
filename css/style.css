@@ -1,15 +1,10 @@
 * {
 	font-family: 'Raleway', sans-serif;
-	color: #f7ded4;
+	color: #f7ded4 !important;
 }
 
 body {
 	background-color: #fbeee9;
-}
-
-p {
-	padding: 5% 0;
-	margin: 0;
 }
 
 .container-fluid {
@@ -39,50 +34,45 @@ p {
 	font-family: 'Lobster', cursive;
 	font-size: 400%;
 	text-align: right;
-	color: #e9967a;
+	color: #e9967a !important;
 }
 
-.skill, .description {
-	color: #222;
+h3, h4 {
+	font-weight: bold;
+}
+
+.description {
+	color: #222!important;
 }
 
 li a {
     display: block;
-    color: white;
+    color: #f7ded4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 120%;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e9967a;
-  color: #ffffff;
-
+  background-color: #f7ded4;
+  color: #222 !important;
 }
 
 a:focus, button:focus {   
     outline: 0 none !important;
 }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #ffffff;
-  background-color: #e9967a;
-  border-color: transparent;
-}
-
-.description {
+.about {
 	background-color: #e9967a;
   	overflow: auto;
+  	padding: 0 20px;
 }
 
 .description-img {
 	margin: auto 0;
-	border: solid #222;
-
 }
 
 .skill-list {
@@ -96,15 +86,27 @@ a:focus, button:focus {
 }
 
 .skill-img {
-	margin-top: 15%;
-	width : 200px;
+	margin-top: 5%;
+	width : 150px;
 }
 
 .contact {
-	font-size: 175%;
+	font-size: 150%;
+}
+
+.svg {
+	height: 50px;
+}
+
+.social-icon {
+	padding: 0;
 }
 
 .licence {
 	padding-bottom: 0;
 }
 
+.list-inline {
+	margin-bottom: 0;
+	margin-left: 0;
+}
