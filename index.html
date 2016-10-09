@@ -22,23 +22,21 @@
       <body>
             <div class="container-fluid">
                   <header class="row">
-                        <div class="col-md-4">
+                        <article class="col-xs-12 col-sm-6 col-md-4">
                               <img class="img-responsive img-rounded center-block logo" src="picture/aliceletourneur.png">
-                        </div>
-                        <div class="col-md-8">
-                              <div class="title">
-                                    <h1 class="name">Alice Letourneur</h1>
-                                    <h2 class="role">Front End Developer</h2>
-                              </div>
-                              <nav class="navbar">
-                                    <div class="navbar-header">
-                                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        </article>
+                        <article class="title col-xs-12 col-sm-6 col-md-8">
+                              <h1 class="name">Alice Letourneur</h1>
+                              <h2 class="role">Front End Developer</h2>
+                        </article>
+                        <article class="col-xs-12 col-sm-12 col-md-8">
+                              <nav class="navbar col-sm-12 text-center">
+                                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                                 <span class="sr-only">Toggle navigation</span>
                                                 <span class="icon-bar"></span>
                                                 <span class="icon-bar"></span>
                                                 <span class="icon-bar"></span>
-                                          </button>       
-                                    </div>
+                                    </button>
                                     <div id="navbar" class="navbar-collapse collapse">
                                           <ul class="nav nav-pills nav-justified">
                                                 <li><a href="#about">About</a></li>
@@ -47,7 +45,7 @@
                                           </ul>
                                     </div>
                               </nav>
-                        </div>
+                        </article>
                   </header>
                   <section class="row about" id="about">
                         <article class="col-md-7">
@@ -56,7 +54,7 @@
                               <p class="description">This portfolio represents mainly the projects I am working on while studying a Front-End Developer Nanodegree at Udacity.</p>
                               <p class="description"> I am learning to master the skills required to become an awesome Front-End Web Developer, and start building beautiful, responsive websites optimized for mobile and desktop performance.</p>
                         </article>
-                        <article class="col-md-5">
+                        <article class="col-md-5 center-block">
                               <img class="img-responsive center-block description-img" alt="Illustration my description" src="picture/FEND2.png">
                         </article>
                   </section>
@@ -75,7 +73,7 @@
                                           <h4 class="skill">Build My Portfolio Site</h4>
                                           <p class="skill-description">Practicing HTML syntax by converting a mockup of a blog article into a real website!</p>
                                           <!-- Button trigger Small modal Skill 1 -->
-                                          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-1-modal">More info</button></p>
+                                          <p class="text-center"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-1-modal">More info</button></p>
                                     </div>
                               </div>
                         </article>
@@ -85,7 +83,6 @@
                                     <div class="caption">
                                           <h4>Interactive Resume</h4>
                                           <p class="skill-description">My description goes here, my description goes here, my description goes here, my description goes here, my description goes here.</p>
-                                          <!-- Button trigger Small modal Skill 2 -->
                                     </div>
                               </div>
                         </article>
@@ -118,23 +115,21 @@
                         <!-- End small Modal Skill 1-->
 
                   </section>
-                  <footer>
-                        <article class="row contact">
-                              <div class="col-md-12" id="contact">
-                                    <ul class="list-inline text-center">
-                                          <li><span>Contact me</span></li>
-                                          <li><a class="social-icon" href="mailto:aliceletourneur@icloud.com"><img class="svg" type="image/svg+xml" src="picture/mail.svg" onmouseover="this.src='picture/mail_copy.svg';" onmouseout="this.src='picture/mail.svg';"></a></li>
-                                          <li><span>or get social</span></li>
-                                          <li><a class="social-icon" href="https://www.facebook.com/al.letourneur"><img class="svg" type="image/svg+xml" src="picture/facebook.svg" onmouseover="this.src='picture/facebook_copy.svg';" onmouseout="this.src='picture/facebook.svg';"></a></li>
-                                          <a class="social-icon" href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img class="svg" type="image/svg+xml" src="picture/linkedin.svg" onmouseover="this.src='picture/linkedin_copy.svg';" onmouseout="this.src='picture/linkedin.svg';"></a></li>
-                                          <li><a class="social-icon" href="https://github.com/alice-letourneur"><img class="svg" type="image/svg+xml" src="picture/github.svg" onmouseover="this.src='picture/github_copy.svg';" onmouseout="this.src='picture/github.svg';"></a></li>
-                                    </ul>
-                              </div>
-                        </article>
-                        <article class="row">
-                              <div class="col-md-12">
-                                    <p class="licence">(c) 2016 Alice Letourneur</p>
-                              </div>
+                  <section class="row contact">
+                        <div class="col-md-12" id="contact">
+                              <ul class="list-inline text-center">
+                                    <li class="hidden-xs">Contact me</li>
+                                    <li><a class="social-icon" href="mailto:aliceletourneur@icloud.com"><img class="svg" type="image/svg+xml" src="picture/mail.svg" onmouseover="this.src='picture/mail_copy.svg';" onmouseout="this.src='picture/mail.svg';"></a></li>
+                                    <li class="hidden-xs">or get social</li>
+                                    <li><a class="social-icon" href="https://www.facebook.com/al.letourneur"><img class="svg" type="image/svg+xml" src="picture/facebook.svg" onmouseover="this.src='picture/facebook_copy.svg';" onmouseout="this.src='picture/facebook.svg';"></a></li>
+                                    <a class="social-icon" href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img class="svg" type="image/svg+xml" src="picture/linkedin.svg" onmouseover="this.src='picture/linkedin_copy.svg';" onmouseout="this.src='picture/linkedin.svg';"></a></li>
+                                    <li><a class="social-icon" href="https://github.com/alice-letourneur"><img class="svg" type="image/svg+xml" src="picture/github.svg" onmouseover="this.src='picture/github_copy.svg';" onmouseout="this.src='picture/github.svg';"></a></li>
+                              </ul>
+                        </div>
+                  </section>
+                  <footer class="row">
+                        <article class="col-md-12">
+                              <p class="licence">(c) 2016 Alice Letourneur</p>
                         </article>
                   </footer>
             </div>
@@ -146,5 +141,4 @@
             <script src="js/bootstrap.min.js"></script>
 
       </body>
-<!--        -->
 </html>
