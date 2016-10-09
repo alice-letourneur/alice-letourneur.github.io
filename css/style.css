@@ -3,10 +3,13 @@
 	color: #f7ded4 !important;
 }
 
-body {
+body, .modal-content {
 	background-color: #fbeee9;
 }
 
+.modal-header {
+	background-color: #222;
+}
 .container-fluid {
 	max-width: 1000px;
 	background: #222;
@@ -23,6 +26,7 @@ body {
 	max-width: 290px;
 	border-radius: 50px 15px;
 	border: solid #f7ded4;
+	width: 100%;
 }
 
 .title {
@@ -34,15 +38,19 @@ body {
 	font-family: 'Lobster', cursive;
 	font-size: 400%;
 	text-align: center;
-	color: #e9967a !important;
 }
 
 h3, h4 {
 	font-weight: bold;
+	padding-bottom: 5%;
 }
 
-.description {
+.dark-font {
 	color: #222!important;
+}
+
+.dark-pink-font {
+	color: #e9967a !important;
 }
 
 .icon-bar {
@@ -86,6 +94,7 @@ a:focus, button:focus {
 .description-img {
 	margin: auto;
 	max-width: 350px;
+	width: 100%;
 }
 
 .btn {
@@ -108,6 +117,10 @@ a:focus, button:focus {
 	padding-top: 0;
 }
 
+.link-github {
+	float: left;
+}
+
 .thumbnail {
 	border-radius: 50px 15px;
 	background-color: #222;
@@ -117,6 +130,14 @@ a:focus, button:focus {
 .skill-img {
 	margin-top: 5%;
 	width : 150px;
+}
+
+.skill-description {
+	padding-bottom: 5%;
+}
+
+.modal-title {
+	padding-bottom: 0;
 }
 
 .contact {
