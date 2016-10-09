@@ -89,7 +89,7 @@ a:focus, button:focus {
 }
 
 .btn:hover,
-.nav:focus {
+.btn:focus {
   text-decoration: none;
   background-color: #f7ded4;
   color: #222 !important;
