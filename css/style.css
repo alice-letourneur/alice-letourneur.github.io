@@ -20,20 +20,20 @@ body {
 
 
 .logo {
+	max-width: 290px;
 	border-radius: 50px 15px;
 	border: solid #f7ded4;
-	margin-left: 0;
 }
 
 .title {
-	text-align: right;
-	padding-bottom: 10%;
+	text-align: center;
+	padding-bottom: 0;
 }
 
 .name {
 	font-family: 'Lobster', cursive;
 	font-size: 400%;
-	text-align: right;
+	text-align: center;
 	color: #e9967a !important;
 }
 
@@ -50,7 +50,11 @@ h3, h4 {
 }
 
 .navbar-toggle {
-	float: left;
+    float: none;
+}
+
+.navbar {
+	padding-top: 10%;
 }
 
 li a {
@@ -80,7 +84,8 @@ a:focus, button:focus {
 }
 
 .description-img {
-	margin: auto 0;
+	margin: auto;
+	max-width: 350px;
 }
 
 .btn {
@@ -120,6 +125,7 @@ a:focus, button:focus {
 
 .svg {
 	height: 50px;
+	padding: 0;
 }
 
 .social-icon {
