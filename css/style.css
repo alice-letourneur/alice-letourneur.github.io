@@ -45,6 +45,14 @@ h3, h4 {
 	color: #222!important;
 }
 
+.icon-bar {
+	background-color: #f7ded4;
+}
+
+.navbar-toggle {
+	float: left;
+}
+
 li a {
     display: block;
     color: #f7ded4;
@@ -73,6 +81,22 @@ a:focus, button:focus {
 
 .description-img {
 	margin: auto 0;
+}
+
+.btn {
+	background-color: #222;
+	border-color: #e9967a;
+}
+
+.btn:hover,
+.nav:focus {
+  text-decoration: none;
+  background-color: #f7ded4;
+  color: #222 !important;
+}
+
+a:focus, button:focus {   
+    outline: 0 none !important;
 }
 
 .skill-list {
