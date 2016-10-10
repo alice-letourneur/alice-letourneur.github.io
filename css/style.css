@@ -59,6 +59,7 @@ h3, h4 {
 
 .navbar-toggle {
     float: none;
+    margin-right: 0;
 }
 
 .navbar {
@@ -160,4 +161,8 @@ a:focus, button:focus {
 .list-inline {
 	margin-bottom: 0;
 	margin-left: 0;
+}
+
+.credits {
+	color : grey !important;
 }
