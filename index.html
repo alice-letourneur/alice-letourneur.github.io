@@ -8,29 +8,23 @@
             <title>My portfolio - Alice Letourneur</title>
             <!-- Bootstrap -->
             <link href="css/bootstrap.min.css" rel="stylesheet">
-
-            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-            <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-            <![endif]-->
             <!-- My style -->
             <link href="css/style.css" rel="stylesheet" type="text/css">
+            <!-- Font style-->
             <link href="https://fonts.googleapis.com/css?family=Lobster%7CRaleway:300" rel="stylesheet">
       </head>
       <body>
             <div class="container-fluid">
                   <header class="row">
                         <article class="col-xs-12 col-sm-6 col-md-4">
-                              <img class="img-responsive img-rounded center-block logo" src="picture/aliceletourneur.png">
+                              <img class="img-responsive img-rounded center-block logo" alt="Picture of Alice Letourneur" src="picture/aliceletourneur.png">
                         </article>
                         <article class="title col-xs-12 col-sm-6 col-md-8">
                               <h1 class="name dark-pink-font">Alice Letourneur</h1>
                               <h2 class="role">Front End Developer</h2>
                         </article>
                         <article class="col-xs-12 col-sm-12 col-md-8">
-                              <nav class="navbar col-sm-12 text-center">
+                              <nav class="navbar col-xs-12 text-center">
                                     <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                                 <span class="sr-only">Toggle navigation</span>
                                                 <span class="icon-bar"></span>
@@ -54,9 +48,9 @@
                               <p class="dark-font">This portfolio represents mainly the projects I am working on while studying a Front-End Developer Nanodegree at Udacity.</p>
                               <p class="dark-font">I am learning to master the skills required to become an awesome Front-End Web Developer, and start building beautiful, responsive websites optimized for mobile and desktop performance.</p>
                         </article>
-                        <article class="col-md-5 center-block">
-                              <img class="img-responsive center-block description-img" alt="Illustration my description" src="picture/FEND2.png">
-                        </article>
+                        <figure class="col-md-5 center-block">
+                              <img class="img-responsive center-block description-img" alt="Illustration Front-End Developer workstation" src="picture/FEND2.png">
+                        </figure>
                   </section>
 
                   <section class="row" id= "featured_project">
@@ -67,59 +61,60 @@
 
                   <section class="row skill-list">
                         <article class="col-md-4">
-                              <div class="thumbnail">
+                              <figure class="thumbnail">
                                     <img class="img-responsive img-rounded skill-img" alt="Illustration project number 1" src="picture/browser1.png">
-                                    <div class="caption">
+                                    <figcaption class="caption">
                                           <h4 class="skill">Build My Portfolio Site</h4>
                                           <p class="skill-description">I have used HTML5 and CSS3 to develop a responsive website to display the portfolio projects I will build!</p>
                                           <!-- Button trigger Small modal Skill 1 -->
-                                          <p class="project-modal-btn"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".skill-1-modal">More info</button></p>
-                                    </div>
-                              </div>
+                                          <p class="project-modal-btn"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".project-1-modal">More info</button></p>
+                                    </figcaption>
+                              </figure>
                         </article>
                         <article class="col-md-4">
-                              <div class="thumbnail">
+                              <figure class="thumbnail">
                                     <img class="img-responsive img-rounded skill-img" alt="Illustration project number 2" src="picture/job-search.png">
-                                    <div class="caption">
+                                    <figcaption class="caption">
                                           <h4>Interactive Resume</h4>
                                           <p class="skill-description">I will use JavaScript and jQuery to showcase my skills by building an interactive resume.</p>
-                                          <p class="project-modal-btn"><button type="button" class="btn btn-primary disabled" data-toggle="modal" data-target=".skill-2-modal">In progress</button></p>
-                                    </div>
-                              </div>
+                                          <p class="project-modal-btn"><button type="button" class="btn btn-primary disabled" data-toggle="modal" data-target=".project-2-modal">In progress</button></p>
+                                    </figcaption>
+                              </figure>
                         </article>
                         <article class="col-md-4">
-                              <div class="thumbnail">
+                              <figure class="thumbnail">
                                     <img class="img-responsive img-rounded skill-img" alt="Illustration project number 3" src="picture/pacman.png">
-                                    <div class="caption">
+                                    <figcaption class="caption">
                                           <h4 class="skill">Classic Arcade Game Clone</h4>
                                           <p class="skill-description">I will use Object-Oriented Javascript & HTML5 Canvas to create a classic arcade game.</p>
-                                          <p class="project-modal-btn"><button type="button" class="btn btn-primary disabled" data-toggle="modal" data-target=".skill-3-modal">In progress</button></p>
-                                    </div>
-                              </div>
+                                          <p class="project-modal-btn"><button type="button" class="btn btn-primary disabled" data-toggle="modal" data-target=".project-3-modal">In progress</button></p>
+                                    </figcaption>
+                              </figure>
                         </article>
 
                         <!-- Start small Modal Skill 1-->
-                        <div class="modal fade skill-1-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                        <div class="modal fade project-1-modal" tabindex="-1" role="dialog" aria-labelledby="project-1-modal">
                               <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                           <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                <h4 class="modal-title" id="myModalLabel">Build My Portfolio Site</h4>
+                                                <h4 class="modal-title" id="project-1-modal">Build My Portfolio Site</h4>
                                           </div>
                                           <div class="modal-body">
                                                 <div class="row">
                                                       <div class="col-md-6">
-                                                            <p class="dark-font">This is the first project created for the Udacity Nanodegree program and it helped me to better understand responsive design. In this project, the goal was to replicate a design mockup in HTML and CSS. The website had to be responsive and display images, descriptions and links to my projects. I have used Bootstrap framework to build my portfolio and spend a lot of time exploring what it had to offer.</p>
+                                                            <p class="dark-font">This is my first project created for the Udacity Front-End Development Nanodegree program and it helped me to better understand responsive design. In this project, the goal was to replicate a design mockup in HTML and CSS. The website had to be responsive and display images, descriptions and links to my projects. I have used Bootstrap framework to build my portfolio and I have spent a lot of time exploring what it has to offer.</p>
                                                             <p class="dark-font">I have also discovered version control tools such as Git and Github while working on this project.</p>
                                                       </div>
-                                                      <div class="col-md-6">
-                                                            <img class="img-responsive" src="picture/project1-image.png">
-                                                      </div>
+                                                      <figure class="col-md-6">
+                                                            <img class="img-responsive" alt="Result of my portfolio at the end of project 1" src="picture/project1-img-lg.png">
+                                                            <figcaption class="text-center"><em class="dark-font">Result on large viewport</em></figcaption>
+                                                      </figure>
                                                 </div>
                                           </div>
                                           <div class="modal-footer">
                                                 <div class="col-md-6">
-                                                      <p class="link-github"><a href="https://github.com/alice-letourneur/alice-letourneur.github.io"><button type="button" class="btn btn-default">Check it out on Github</button></a></p>
+                                                      <p class="link-github"><a class="btn btn-default" href="https://github.com/alice-letourneur/alice-letourneur.github.io">Check it out on Github</a></p>
                                                 </div>
                                                 <div class="col-md-6">
                                                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -132,16 +127,16 @@
 
                   </section>
                   <section class="row contact">
-                        <div class="col-md-12" id="contact">
+                        <article class="col-md-12" id="contact">
                               <ul class="list-inline text-center">
                                     <li class="hidden-xs">Contact me</li>
-                                    <li><a class="social-icon" href="mailto:aliceletourneur@icloud.com"><img class="svg" type="image/svg+xml" src="picture/mail_lighter.svg" onmouseover="this.src='picture/mail_darker.svg';" onmouseout="this.src='picture/mail_lighter.svg';"></a></li>
+                                    <li><a class="social-icon" href="mailto:aliceletourneur@icloud.com"><img class="svg" alt="Clickable Logo email" src="picture/mail_lighter.svg" onmouseover="this.src='picture/mail_darker.svg';" onmouseout="this.src='picture/mail_lighter.svg';"></a></li>
                                     <li class="hidden-xs">or get social</li>
-                                    <li><a class="social-icon" href="https://www.facebook.com/al.letourneur"><img class="svg" type="image/svg+xml" src="picture/facebook_lighter.svg" onmouseover="this.src='picture/facebook_darker.svg';" onmouseout="this.src='picture/facebook_lighter.svg';"></a></li>
-                                    <li><a class="social-icon" href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img class="svg" type="image/svg+xml" src="picture/linkedin_lighter.svg" onmouseover="this.src='picture/linkedin_darker.svg';" onmouseout="this.src='picture/linkedin_lighter.svg';"></a></li>
-                                    <li><a class="social-icon" href="https://github.com/alice-letourneur"><img class="svg" type="image/svg+xml" src="picture/github_lighter.svg" onmouseover="this.src='picture/github_darker.svg';" onmouseout="this.src='picture/github_lighter.svg';"></a></li>
+                                    <li><a class="social-icon" href="https://www.facebook.com/al.letourneur"><img class="svg" alt="Clickable Logo Facebook" src="picture/facebook_lighter.svg" onmouseover="this.src='picture/facebook_darker.svg';" onmouseout="this.src='picture/facebook_lighter.svg';"></a></li>
+                                    <li><a class="social-icon" href="https://uk.linkedin.com/in/alice-letourneur-51387944"><img class="svg" alt="Clickable Logo Linkedin" src="picture/linkedin_lighter.svg" onmouseover="this.src='picture/linkedin_darker.svg';" onmouseout="this.src='picture/linkedin_lighter.svg';"></a></li>
+                                    <li><a class="social-icon" href="https://github.com/alice-letourneur"><img class="svg" alt="Clickable Logo Github" src="picture/github_lighter.svg" onmouseover="this.src='picture/github_darker.svg';" onmouseout="this.src='picture/github_lighter.svg';"></a></li>
                               </ul>
-                        </div>
+                        </article>
                   </section>
                   <footer class="row">
                         <article class="col-md-12">
