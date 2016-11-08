@@ -1,15 +1,17 @@
 * {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: #f7ded4 !important;
 }
 
-body, .modal-content {
+body, 
+.modal-content {
 	background-color: #fbeee9;
 }
 
 .modal-header {
 	background-color: #222;
 }
+
 .container-fluid {
 	max-width: 1000px;
 	background: #222;
@@ -40,7 +42,8 @@ body, .modal-content {
 	text-align: center;
 }
 
-h3, h4 {
+h3, 
+h4 {
 	font-weight: bold;
 	padding-bottom: 5%;
 }
