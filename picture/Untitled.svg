@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="143 126 135 123" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Audiowide:400|Lobster+Two:400,400italic,700,700italic);</style>
+    <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
+    </pattern>
+  </defs>
+  <text x="182.679" y="197.727" style="font-family: Audiowide; font-size: 36px; white-space: pre;">AL</text>
+  <path d="M 86.846 127.238" style="fill: none; stroke: black;"/>
+  <ellipse transform="matrix(-1, 0, 0, -1, 0, 0)" cx="-202.875" cy="211.588" rx="62.173" ry="54.252" style="fill: rgb(216, 216, 216);"/>
+  <ellipse cx="210.795" cy="187.827" rx="62.173" ry="57.421" style="fill: rgb(34, 34, 34); stroke: rgb(247, 222, 212); stroke-width: 4;"/>
+  <text transform="matrix(1.55415, 0, 0, 1.474945, -120.395309, -91.358528)" y="200.103" x="191.391" style="fill: rgb(233, 150, 122); font-family: &quot;Lobster Two&quot;; font-size: 36px; white-space: pre;">AL</text>
+</svg>

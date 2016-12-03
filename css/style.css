@@ -145,8 +145,12 @@ a:focus, button:focus {
 	font-size: 150%;
 }
 
+#contact {
+	padding: 20px 15px;
+}
+
 .svg {
-	height: 45px;
+	height: 60px;
 	padding: 0;
 }
 
@@ -165,4 +169,43 @@ a:focus, button:focus {
 
 .credits {
 	color : grey !important;
+}
+
+#lets-connect-header {
+  padding: 15px;
+}
+
+#lets-connect {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.orange {
+  background-color: #e9967a;
+}
+
+.light-pink {
+  color: #f7ded4;
+}
+
+.social {
+	padding-top: 10px;
+}
+
+.social-inline {
+    display: inline;
+}
+
+.social-block {
+    display: none;
+}
+
+@media only screen and (min-width : 991px) {
+    .social-inline {
+        display: none;
+    }
+
+    .social-block {
+        display: inline-block;
+    }
 }
