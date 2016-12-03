@@ -213,3 +213,7 @@ a:focus, button:focus {
         display: inline-block;
     }
 }
+
+.form-control {
+	color: #555!important;
+}
