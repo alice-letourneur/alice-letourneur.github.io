@@ -145,6 +145,10 @@ a:focus, button:focus {
 	font-size: 150%;
 }
 
+.project-img {
+	max-height: 300px;
+}
+
 #contact {
 	padding: 20px 15px;
 }
