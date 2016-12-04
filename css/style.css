@@ -79,7 +79,7 @@ li a {
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #f7ded4;
-  color: #222 !important;
+  color: #222!important;
 }
 
 a:focus, button:focus {   
@@ -214,12 +214,25 @@ a:focus, button:focus {
     }
 }
 
+.long-list {
+	display: inline;
+}
+
+.short-list {
+	display: none;
+}
+
 @media only screen and (min-width : 992px) and (max-width: 1116px) {
     .long-list {
         display: none;
     }
 
+    .short-list {
+    	display: inline;
+    }
+
 }
+
 .form-control {
 	color: #555!important;
 }
