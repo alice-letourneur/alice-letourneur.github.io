@@ -204,16 +204,22 @@ a:focus, button:focus {
     display: none;
 }
 
-@media only screen and (min-width : 991px) {
+@media only screen and (min-width : 992px) {
     .social-inline {
         display: none;
     }
 
     .social-block {
-        display: inline-block;
+        display: inline;
     }
 }
 
+@media only screen and (min-width : 992px) and (max-width: 1116px) {
+    .long-list {
+        display: none;
+    }
+
+}
 .form-control {
 	color: #555!important;
 }
