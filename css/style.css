@@ -30,7 +30,6 @@ body {
 	padding: 20px;
 }
 
-
 .logo {
 	max-width: 290px;
 	border-radius: 50px 15px;
@@ -47,6 +46,10 @@ body {
 	font-family: 'Lobster', cursive;
 	font-size: 400%;
 	text-align: center;
+}
+
+textarea {
+  resize: none;
 }
 
 h3, 
@@ -164,7 +167,7 @@ a:focus, button:focus {
 }
 
 .svg {
-	height: 60px;
+	height: 55px;
 	padding: 0;
 }
 
